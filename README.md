@@ -13,6 +13,7 @@ Agent Experience (AX) is to AI agents what User Experience (UX) is to humans and
   - [Discovery Mechanisms](#discovery-mechanisms)
   - [Access Control](#access-control)
   - [API Description](#api-description)
+  - [Governance](#governance)
 - [Tools](#tools)
   - [Agent-Readable Content](#agent-readable-content)
   - [Agent Discovery & Registration](#agent-discovery--registration)
@@ -26,7 +27,10 @@ Agent Experience (AX) is to AI agents what User Experience (UX) is to humans and
   - [Foundational](#foundational)
   - [Company Perspectives](#company-perspectives)
   - [Thought Leadership](#thought-leadership)
+  - [VC & Analyst Takes](#vc--analyst-takes)
 - [Case Studies](#case-studies)
+  - [Agentic Commerce](#agentic-commerce)
+  - [Platform AX](#platform-ax)
 - [Academic Papers](#academic-papers)
 - [Related Awesome Lists](#related-awesome-lists)
 - [Research Notes](#research-notes)
@@ -153,8 +157,6 @@ Well-known URIs (RFC 8615) for agent discovery:
 ### Agent-Friendly APIs
 
 - [NLWeb](https://github.com/microsoft/NLWeb) - Natural language endpoints for websites, built on Schema.org. Every instance is also an MCP server.
-- [agents.json (Wildcard)](https://github.com/wild-card-ai/agents-json) - OpenAPI extension with flows and links for agent consumption.
-- [agents.json (jmilinovich)](https://github.com/jmilinovich/agents.json) - robots.txt-like agent interaction rules.
 - [wpnlweb](https://github.com/gigabit-eth/wpnlweb) - WordPress plugin implementing the NLWeb protocol.
 
 ### Agent Web Interaction
@@ -270,10 +272,6 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents) - 1,500+ resources and tools for AI agents.
 - [awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents) - 300+ agentic AI resources.
 - [awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents) - LLM agent frameworks.
-- [awesome-GEO](https://github.com/amplifying-ai/awesome-generative-engine-optimization) - Generative Engine Optimization resources.
-- [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) - Directory of llms.txt implementations.
-- [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) - Curated MCP servers.
-- [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) - Curated MCP servers.
 
 ## Research Notes
 
@@ -289,11 +287,9 @@ Detailed research notes compiled during the creation of this repository:
 - [Netlify's AX Canon](research/netlify-ax.md) - Complete index of Netlify/Biilmann AX writings and talks.
 - [Terminology Mapping](research/terminology.md) - AX, GEO, ASO, AEO, LLMO -- how the terms relate.
 
-## Contributing
+## Contribute
 
-This is a living document. If you know of standards, tools, or resources that should be included, please open an issue or PR.
-
-## License
+[Contributions welcome!](contributing.md) If you know of standards, tools, or resources that should be included, please open an issue or PR.
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
