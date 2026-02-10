@@ -1,9 +1,9 @@
 name: Update Awesome List
 
 on:
-  # Run monthly on the 1st at 9am UTC
+  # Run biweekly on the 1st and 15th at 9am UTC
   schedule:
-    - cron: "0 9 1 * *"
+    - cron: "0 9 1,15 * *"
 
   # Allow manual trigger from Actions tab
   workflow_dispatch:
@@ -26,11 +26,15 @@ on:
 
 jobs:
   update:
-    # Only run on schedule/dispatch, or when 'update-list' label is added
+    # Schedule and dispatch always run; issue label requires owner/collaborator
     if: |
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'issues' && github.event.label.name == 'update-list')
+      (
+        github.event_name == 'issues' &&
+        github.event.label.name == 'update-list' &&
+        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -57,9 +61,9 @@ jobs:
 
             Follow the skill instructions to research and update the awesome list.
             Focus on content from the last 30 days.
-            After making changes, commit to a new branch and open a PR.
+            After making changes, commit directly to main and push.
 
-            If you find no new items worth adding, do not create a PR. Instead just
+            If you find no new items worth adding, do not commit. Instead just
             report that the list is up to date.
           claude_args: >-
             --max-turns 30
