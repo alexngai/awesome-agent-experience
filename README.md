@@ -246,6 +246,7 @@ IETF Drafts:
 - [Moltbook Is the Most Interesting Place on the Internet](https://simonwillison.net/2026/Jan/30/moltbook/) - Analysis of the first agent social network and SKILL.md. Simon Willison.
 - [Agent Experience and the Future of Web Development](https://www.aviator.co/podcast/agent-experience-and-the-future-of-web-development) - Podcast on the decade of agents. Matt Biilmann / Aviator.
 - [First impressions of Claude Cowork](https://simonwillison.net/2026/Jan/12/claude-cowork/) - Analysis of Anthropic's general-purpose agent extending Claude Code functionality to non-developer users. Simon Willison, Jan 2026.
+- [Structured Context Engineering for File-Native Agentic Systems](https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/) - Analysis of how file formats (YAML, Markdown, JSON, TOON) affect agent accuracy and the "grep tax" phenomenon. Simon Willison, Feb 2026.
 
 ### VC & Analyst Takes
 
@@ -280,6 +281,8 @@ IETF Drafts:
 - [How to Dominate AI Search](https://arxiv.org/abs/2509.08919) - Strategies for generative engine optimization. Chen et al., 2025.
 - [A Survey of AI Agent Protocols](https://arxiv.org/pdf/2504.16736) - Comprehensive survey of the protocol landscape. April 2025.
 - [A Survey of Agent Interoperability Protocols](https://arxiv.org/html/2505.02279v1) - Analysis of MCP, A2A, ACP, and other interop standards. May 2025.
+- [Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/abs/2602.05447) - 9,649 experiments showing how file formats affect agent accuracy and token efficiency at scale. McMillan, Feb 2026.
+- [Does Prompt Formatting Have Any Impact on LLM Performance?](https://arxiv.org/abs/2411.10541) - Demonstrates up to 40% performance variation from format choice (plain text, Markdown, JSON, YAML). Tam et al., Nov 2024.
 
 ## Related Awesome Lists
 
@@ -303,6 +306,7 @@ Detailed research notes compiled during the creation of this repository:
 - [AX Perspectives & Frameworks](research/ax-perspectives.md) - 20 industry perspectives on AX best practices.
 - [Netlify's AX Canon](research/netlify-ax.md) - Complete index of Netlify/Biilmann AX writings and talks.
 - [Terminology Mapping](research/terminology.md) - AX, GEO, ASO, AEO, LLMO -- how the terms relate.
+- [File Type Agent Accessibility](research/file-type-agent-accessibility.md) - How file formats affect agent accuracy, token efficiency, and the "grep tax."
 
 ## Contribute
 
