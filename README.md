@@ -102,6 +102,7 @@ Established frameworks for designing agent-friendly systems. See [research/ax-pe
 - [ACP](https://github.com/ibm/acp) - Agent Communication Protocol. Lightweight HTTP-based agent messaging. IBM BeeAI.
 - [ANP](https://github.com/agent-network-protocol) - Agent Network Protocol. Decentralized agent networking with W3C DID identity and end-to-end encryption.
 - [AG-UI](https://github.com/ag-ui-protocol) - Agent-User Interaction Protocol. Standardizes how agents interact with end users.
+- [A2UI](https://a2aprotocol.ai/blog/2026-a2ui-developer-guide) - Agent to UI Protocol. Enables AI agents to generate rich, interactive user interfaces using declarative JSON messages.
 
 ### Discovery Mechanisms
 
@@ -112,6 +113,11 @@ Well-known URIs (RFC 8615) for agent discovery:
 - `/.well-known/skills/index.json` - Agent skill discovery index ([Cloudflare RFC](https://github.com/cloudflare/agent-skills-discovery-rfc)).
 - `/llms.txt` - Content index for LLMs.
 - `/llms-full.txt` - Full content for LLMs.
+
+IETF Drafts:
+
+- [HTTP-Based AI Agent Discovery and Invocation Protocol](https://www.ietf.org/archive/id/draft-cui-ai-agent-discovery-invocation-00.html) - IETF draft for standardized agent discovery and invocation over HTTP. Published October 2025.
+- [Agent Directory Service](https://datatracker.ietf.org/doc/draft-mp-agntcy-ads/) - IETF draft for distributed directory service to store AI agent metadata and enable discovery.
 
 ### Access Control
 
@@ -165,6 +171,7 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [Notte](https://github.com/nottelabs/notte) - Full-stack framework for building web agents.
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - Open-source browser API designed for AI agents.
 - [Web Agent Protocol](https://github.com/OTA-Tech-AI/web-agent-protocol) - Standardized framework for recording and replaying browser interactions.
+- [TheAgenticBrowser](https://github.com/TheAgenticAI/TheAgenticBrowser) - Open-source AI agent for web automation and scraping.
 
 ### MCP Ecosystem
 
@@ -180,6 +187,8 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [ClawHub](https://github.com/openclaw/clawhub) - Public skill registry for OpenClaw agents.
 - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Curated collection of OpenClaw skills.
 - [agent-trace](https://github.com/cursor/agent-trace) - Standard format for tracing AI-generated code provenance.
+- [microsoft/skills](https://github.com/microsoft/skills) - Skills, MCP servers, and AGENTS.md templates for grounding AI coding agents with Azure SDK and Microsoft AI Foundry knowledge. 131 skills across 6 languages.
+- [awesome-agent-skills](https://github.com/skillmatic-ai/awesome-agent-skills) - Comprehensive guide to building and using Agent Skills with learning phases, platforms, and implementation resources.
 
 ### GEO & Agent SEO
 
@@ -188,6 +197,8 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [Gego](https://github.com/AI2HU/gego) - Open-source GEO tracker across multiple LLMs.
 - [awesome-GEO](https://github.com/amplifying-ai/awesome-generative-engine-optimization) - Curated list of GEO resources and tools.
 - [GEO Tools List](https://github.com/izak-fisher/generative-engine-optimization-tools) - Extensive list of commercial and free GEO tools.
+- [Profound](https://www.profound.so/) - Market-leading Generative Engine Optimization tracking platform, named G2's Winter 2026 AEO category Leader.
+- [Goodie AI](https://higoodie.com/) - Comprehensive GEO platform tracking brand visibility across ChatGPT, Gemini, Perplexity, Claude, Copilot, and DeepSeek with optimization guidance.
 
 ### Benchmarking & Testing
 
@@ -206,6 +217,7 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [Applying AX Practices](https://agentexperience.ax/concepts/applying-ax-practices/) - Five-step implementation checklist. agentexperience.ax.
 - [AX, Creativity and the Human Web](https://biilmann.blog/articles/ax-creativity-and-the-human-web/) - How good AX can enhance rather than diminish the open web. Matt Biilmann, Feb 2025.
 - [The /llms.txt File Proposal](https://www.answer.ai/posts/2024-09-03-llmstxt.html) - Original llms.txt proposal. Jeremy Howard, Sep 2024.
+- [Predictions for 2026: 5 Topics](https://biilmann.blog/articles/predictions-for-2026/) - Predictions on autonomous agents, AX adoption, true computer literacy, and development pipelines. Matt Biilmann, Jan 2026.
 
 ### Company Perspectives
 
@@ -221,6 +233,8 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [AI Go-To-Market](https://docs.buildwithlayer.com/ai_gtm) - Agents as a new path to product adoption. Jonah Katz / Layer.
 - [Every Website Needs to be Redesigned for AX](https://www.daeila.com/blog/post-6/) - The case for wholesale redesign. Nathan Daeila.
 - [Service Design for AI: Why HX Matters](https://blog.ronbronson.com/service-design-for-ai-why-human-experience-hx-matters) - Counterpoint on keeping humans in the loop. Ron Bronson.
+- [Welcome to a New Era of Experience with AI Agents](https://www.salesforce.com/blog/agent-experience-design/) - Introduction to agent experience design as a new expertise area. Salesforce, May 2025.
+- [The three biggest agentic commerce trends from NRF 2026](https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026) - Stripe's analysis of emerging agentic commerce patterns from the National Retail Federation conference. Stripe, Jan 2026.
 
 ### Thought Leadership
 
@@ -229,6 +243,7 @@ Well-known URIs (RFC 8615) for agent discovery:
 - [Mastering Agentic Experience](https://shiftmag.dev/matt-biilmann-on-mastering-agentic-experience-6237/) - Biilmann at Shift Conference: 5x signups, 7x conversions after AX focus. ShiftMag.
 - [Moltbook Is the Most Interesting Place on the Internet](https://simonwillison.net/2026/Jan/30/moltbook/) - Analysis of the first agent social network and SKILL.md. Simon Willison.
 - [Agent Experience and the Future of Web Development](https://www.aviator.co/podcast/agent-experience-and-the-future-of-web-development) - Podcast on the decade of agents. Matt Biilmann / Aviator.
+- [First impressions of Claude Cowork](https://simonwillison.net/2026/Jan/12/claude-cowork/) - Analysis of Anthropic's general-purpose agent extending Claude Code functionality to non-developer users. Simon Willison, Jan 2026.
 
 ### VC & Analyst Takes
 
@@ -245,8 +260,9 @@ Well-known URIs (RFC 8615) for agent discovery:
 
 - **Stripe** - Co-developed Agentic Commerce Protocol (ACP) with OpenAI. Created Shared Payment Tokens (SPTs) as a new payment primitive. Hosts remote MCP server. All docs available as markdown.
 - **Shopify** - Co-developed Universal Commerce Protocol (UCP) with Google. "Every store agent-ready by default." AI traffic surged 7x, orders 11x. Key lesson: data quality is the differentiator.
-- **Walmart** - "Super Agent" architecture with three personas sharing a single MCP data plane. Cut out-of-stock events by 30% in pilot stores.
+- **Walmart** - "Super Agent" architecture with three personas sharing a single MCP data plane. Cut out-of-stock events by 30% in pilot stores. Partnership with Google Gemini announced Jan 2026.
 - **Michael Kors** - Shopping Muse semantic styling agent. 15-20% conversion rate improvement over keyword search.
+- **Estée Lauder** - Jo Malone London AI Scent Advisor recreates in-store consultation digitally using Vertex AI and Gemini. 2026.
 
 ### Platform AX
 
@@ -254,6 +270,7 @@ Well-known URIs (RFC 8615) for agent discovery:
 - **Daytona** - Built agent-native development infrastructure. $1M ARR in 8 weeks.
 - **Cloudflare** - First toolkit to securely connect SaaS to Claude via MCP. Published agent-skills-discovery RFC. MCP server deployment reduced from weeks to days.
 - **Linear** - Enabled @ mentioning AI agents (Devin, Codegen) directly from tickets. Bidirectional agent-human product interaction.
+- **Home Depot** - Magic Apron AI companion provides specialized customer support with access to customer and purchase data for personalized assistance. 2026.
 
 ## Academic Papers
 
