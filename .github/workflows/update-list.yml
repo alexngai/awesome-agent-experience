@@ -73,7 +73,9 @@ jobs:
             Grep
             Task
             TodoWrite
+            Skill
             Bash(git:*)
+            Bash(curl:*)
             Bash(gh:*)
             Bash(mkdir:*)
             Bash(ls:*)
