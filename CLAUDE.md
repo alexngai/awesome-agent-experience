@@ -17,6 +17,7 @@ research/                    # Detailed research notes
   ax-perspectives.md         # Industry perspectives on AX
   netlify-ax.md             # Netlify/Biilmann AX writings
   terminology.md            # Term mapping (AX, GEO, ASO, etc.)
+  file-type-agent-accessibility.md # File format impact on agent performance
 .claude/skills/             # Agent skills
   update-awesome-list.md    # Skill for researching and updating the list
 .github/workflows/          # GitHub Actions
