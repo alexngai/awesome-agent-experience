@@ -61,7 +61,26 @@ jobs:
 
             If you find no new items worth adding, do not create a PR. Instead just
             report that the list is up to date.
-          claude_args: "--max-turns 30"
+          claude_args: >-
+            --max-turns 30
+            --allowedTools
+            WebSearch
+            WebFetch
+            Read
+            Edit
+            Write
+            Glob
+            Grep
+            Task
+            TodoWrite
+            Skill
+            Bash(git:*)
+            Bash(curl:*)
+            Bash(gh:*)
+            Bash(mkdir:*)
+            Bash(ls:*)
+            Bash(wc:*)
+            Bash(date:*)
 
       - name: Close trigger issue
         if: github.event_name == 'issues'
