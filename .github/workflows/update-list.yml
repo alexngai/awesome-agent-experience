@@ -43,49 +43,23 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Build prompt
-        id: prompt
-        run: |
-          SCOPE="${{ github.event.inputs.scope || 'all' }}"
-          ISSUE_BODY=""
-
-          if [ "${{ github.event_name }}" = "issues" ]; then
-            ISSUE_BODY=$(cat <<'ISSUE_EOF'
-          ${{ github.event.issue.body }}
-          ISSUE_EOF
-          )
-          fi
-
-          cat > /tmp/prompt.txt <<PROMPT_EOF
-          You have a skill at .claude/skills/update-awesome-list.md -- read it first.
-
-          Research scope: ${SCOPE}
-          Today's date: $(date -u +%Y-%m-%d)
-
-          ${ISSUE_BODY:+Additional context from the issue that triggered this run:}
-          ${ISSUE_BODY}
-
-          Follow the skill instructions to research and update the awesome list.
-          Focus on content from the last 30 days.
-          After making changes, commit to a new branch and open a PR.
-
-          When committing:
-          - Create a branch named "update/awesome-list-$(date -u +%Y-%m)"
-          - Commit message: "Update awesome list: add N new resources ($(date -u +'%b %Y'))"
-          - Open a PR with a summary of what was added, organized by section
-
-          If you find no new items worth adding, do not create a PR. Instead just
-          report that the list is up to date.
-          PROMPT_EOF
-
-          echo "prompt_file=/tmp/prompt.txt" >> "$GITHUB_OUTPUT"
-
       - name: Run Claude
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            $(cat /tmp/prompt.txt)
+            You have a skill at .claude/skills/update-awesome-list.md -- read it first.
+
+            Research scope: ${{ github.event.inputs.scope || 'all' }}
+
+            ${{ github.event_name == 'issues' && format('Additional context from the issue that triggered this run:\n{0}', github.event.issue.body) || '' }}
+
+            Follow the skill instructions to research and update the awesome list.
+            Focus on content from the last 30 days.
+            After making changes, commit to a new branch and open a PR.
+
+            If you find no new items worth adding, do not create a PR. Instead just
+            report that the list is up to date.
           claude_args: "--max-turns 30"
 
       - name: Close trigger issue
