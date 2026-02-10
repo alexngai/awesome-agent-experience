@@ -1,0 +1,97 @@
+name: Update Awesome List
+
+on:
+  # Run monthly on the 1st at 9am UTC
+  schedule:
+    - cron: "0 9 1 * *"
+
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "Research scope"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - standards
+          - tools
+          - articles
+          - case-studies
+
+  # Trigger via issue with label
+  issues:
+    types: [labeled]
+
+jobs:
+  update:
+    # Only run on schedule/dispatch, or when 'update-list' label is added
+    if: |
+      github.event_name == 'schedule' ||
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' && github.event.label.name == 'update-list')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Build prompt
+        id: prompt
+        run: |
+          SCOPE="${{ github.event.inputs.scope || 'all' }}"
+          ISSUE_BODY=""
+
+          if [ "${{ github.event_name }}" = "issues" ]; then
+            ISSUE_BODY=$(cat <<'ISSUE_EOF'
+          ${{ github.event.issue.body }}
+          ISSUE_EOF
+          )
+          fi
+
+          cat > /tmp/prompt.txt <<PROMPT_EOF
+          You have a skill at .claude/skills/update-awesome-list.md -- read it first.
+
+          Research scope: ${SCOPE}
+          Today's date: $(date -u +%Y-%m-%d)
+
+          ${ISSUE_BODY:+Additional context from the issue that triggered this run:}
+          ${ISSUE_BODY}
+
+          Follow the skill instructions to research and update the awesome list.
+          Focus on content from the last 30 days.
+          After making changes, commit to a new branch and open a PR.
+
+          When committing:
+          - Create a branch named "update/awesome-list-$(date -u +%Y-%m)"
+          - Commit message: "Update awesome list: add N new resources ($(date -u +'%b %Y'))"
+          - Open a PR with a summary of what was added, organized by section
+
+          If you find no new items worth adding, do not create a PR. Instead just
+          report that the list is up to date.
+          PROMPT_EOF
+
+          echo "prompt_file=/tmp/prompt.txt" >> "$GITHUB_OUTPUT"
+
+      - name: Run Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            $(cat /tmp/prompt.txt)
+          claude_args: "--max-turns 30"
+
+      - name: Close trigger issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} \
+            --comment "Update workflow completed. Check open PRs for results."
