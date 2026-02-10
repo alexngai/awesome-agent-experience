@@ -26,11 +26,15 @@ on:
 
 jobs:
   update:
-    # Only run on schedule/dispatch, or when 'update-list' label is added
+    # Schedule and dispatch always run; issue label requires owner/collaborator
     if: |
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'issues' && github.event.label.name == 'update-list')
+      (
+        github.event_name == 'issues' &&
+        github.event.label.name == 'update-list' &&
+        contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association)
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: write
