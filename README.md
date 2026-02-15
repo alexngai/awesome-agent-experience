@@ -107,6 +107,7 @@ Established frameworks for designing agent-friendly systems. See [research/ax-pe
 - [ANP](https://github.com/agent-network-protocol) - Agent Network Protocol. Decentralized agent networking with W3C DID identity and end-to-end encryption.
 - [AG-UI](https://github.com/ag-ui-protocol) - Agent-User Interaction Protocol. Standardizes how agents interact with end users.
 - [A2UI](https://a2aprotocol.ai/blog/2026-a2ui-developer-guide) - Agent to UI Protocol. Enables AI agents to generate rich, interactive user interfaces using declarative JSON messages.
+- [UCP](https://ucp.dev/) - Universal Commerce Protocol. Open standard co-developed by Google and Shopify enabling AI agents to connect and transact with merchants. Covers discovery, cart assembly, checkout, and post-purchase support.
 
 ### Discovery Mechanisms
 
@@ -122,6 +123,9 @@ IETF Drafts:
 
 - [HTTP-Based AI Agent Discovery and Invocation Protocol](https://www.ietf.org/archive/id/draft-cui-ai-agent-discovery-invocation-00.html) - IETF draft for standardized agent discovery and invocation over HTTP. Published October 2025.
 - [Agent Directory Service](https://datatracker.ietf.org/doc/draft-mp-agntcy-ads/) - IETF draft for distributed directory service to store AI agent metadata and enable discovery.
+- [BANDAID](https://www.ietf.org/archive/id/draft-mozleywilliams-dnsop-bandaid-00.html) - Brokered Agent Network for DNS AI Discovery. Uses DNS with SVCB records for scalable agent discovery. Published October 2025.
+- [DNS-Native AI Agent Naming and Resolution](https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/) - DNS-native mechanism for agent naming using FQDNs and SVCB records. Published December 2025.
+- [AgentDNS](https://datatracker.ietf.org/doc/draft-liang-agentdns/) - Root domain naming and service discovery system for LLM agents. Published October 2025.
 
 ### Access Control
 
@@ -164,6 +168,7 @@ IETF Drafts:
 
 - [NLWeb](https://github.com/microsoft/NLWeb) - Natural language endpoints for websites, built on Schema.org. Every instance is also an MCP server.
 - [wpnlweb](https://github.com/gigabit-eth/wpnlweb) - WordPress plugin implementing the NLWeb protocol.
+- [Manufact](https://www.manufact.com/) - Open-source SDK and platform for building, deploying, and managing MCP servers and AI agents. Y Combinator-backed with 8k+ GitHub stars.
 
 ### Agent Web Interaction
 
@@ -174,6 +179,9 @@ IETF Drafts:
 - [Steel Browser](https://github.com/steel-dev/steel-browser) - Open-source browser API designed for AI agents.
 - [Web Agent Protocol](https://github.com/OTA-Tech-AI/web-agent-protocol) - Standardized framework for recording and replaying browser interactions.
 - [TheAgenticBrowser](https://github.com/TheAgenticAI/TheAgenticBrowser) - Open-source AI agent for web automation and scraping.
+- [mcp-browser-agent](https://github.com/imprvhub/mcp-browser-agent) - MCP integration providing Claude Desktop with autonomous browser automation capabilities including DOM manipulation and JavaScript execution.
+- [Fuji](https://github.com/normal-computing/fuji-web) - AI agent that lives in browser sidepanel for getting tasks done online with a single command.
+- [Browser Operator](https://github.com/browseroperator/browser-operator) - AI browser with built-in multi-agent platform, open-source alternative to ChatGPT Atlas and Perplexity Comet.
 
 ### MCP Ecosystem
 
@@ -201,6 +209,10 @@ IETF Drafts:
 - [GEO Tools List](https://github.com/izak-fisher/generative-engine-optimization-tools) - Extensive list of commercial and free GEO tools.
 - [Profound](https://www.profound.so/) - Market-leading Generative Engine Optimization tracking platform, named G2's Winter 2026 AEO category Leader.
 - [Goodie AI](https://higoodie.com/) - Comprehensive GEO platform tracking brand visibility across ChatGPT, Gemini, Perplexity, Claude, Copilot, and DeepSeek with optimization guidance.
+- [Birdeye Search AI](https://birdeye.com/products/search-ai) - Tracks and improves how brands and locations appear across AI-powered discovery engines like ChatGPT, Google Gemini, and Perplexity.
+- [Geoptie](https://geoptie.com/) - Entry-level GEO tool with accessible $49/mo pricing and 14-day free trial for beginners.
+- [Otterly.AI](https://otterly.ai/) - Democratizes GEO monitoring with entry-level tier at $25/month for tracking AI search visibility.
+- [Peec AI](https://peec.ai/) - GEO optimization platform with pricing ranging from €89/mo starter to €499/mo enterprise tiers.
 
 ### Benchmarking & Testing
 
@@ -237,6 +249,10 @@ IETF Drafts:
 - [Service Design for AI: Why HX Matters](https://blog.ronbronson.com/service-design-for-ai-why-human-experience-hx-matters) - Counterpoint on keeping humans in the loop. Ron Bronson.
 - [Welcome to a New Era of Experience with AI Agents](https://www.salesforce.com/blog/agent-experience-design/) - Introduction to agent experience design as a new expertise area. Salesforce, May 2025.
 - [The three biggest agentic commerce trends from NRF 2026](https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026) - Stripe's analysis of emerging agentic commerce patterns from the National Retail Federation conference. Stripe, Jan 2026.
+- [Why agentic commerce is the new front door to retail](https://www.microsoft.com/en-us/industry/blog/retail/2026/02/09/how-agentic-commerce-is-becoming-the-new-front-door-to-retail/) - Analysis of how agentic AI is reshaping retail customer experiences and operations. Microsoft, Feb 2026.
+- [What is Agent Experience (AX)?](https://nordicapis.com/what-is-agent-experience-ax/) - Foundational explanation of AX with five essential practices for API design. Nordic APIs, Feb 2026.
+- [Agent Experience (AX): Why AI Agents Need Their Own Experience Design for B2B](https://www.eglobalis.com/agent-experience-ax-why-ai-agents-need-their-own-experience-design-for-b2b/) - Enterprise-focused AX deployment with emphasis on trusted context and governance. eGlobalis, Feb 2026.
+- [AX: Optimizing Your Brand for AI Agents](https://higoodie.com/blog/ax-agent-experience-optimizing-your-brand-for-ai-agents) - How AI agents are reshaping brand discovery and interpretation. Goodie AI, Feb 2026.
 
 ### Thought Leadership
 
@@ -247,6 +263,9 @@ IETF Drafts:
 - [Agent Experience and the Future of Web Development](https://www.aviator.co/podcast/agent-experience-and-the-future-of-web-development) - Podcast on the decade of agents. Matt Biilmann / Aviator.
 - [First impressions of Claude Cowork](https://simonwillison.net/2026/Jan/12/claude-cowork/) - Analysis of Anthropic's general-purpose agent extending Claude Code functionality to non-developer users. Simon Willison, Jan 2026.
 - [Structured Context Engineering for File-Native Agentic Systems](https://simonwillison.net/2026/Feb/9/structured-context-engineering-for-file-native-agentic-systems/) - Analysis of how file formats (YAML, Markdown, JSON, TOON) affect agent accuracy and the "grep tax" phenomenon. Simon Willison, Feb 2026.
+- [Introducing the Codex app](https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/) - OpenAI's macOS app for Codex coding agent with first-class Skills and Automations support. Simon Willison, Feb 2026.
+- [One Human + One Agent = One Browser From Scratch](https://simonwillison.net/2026/Jan/27/one-human-one-agent-one-browser/) - Case study of building a browser in Rust with one agent and talented engineer in three days. Simon Willison, Jan 2026.
+- [An AI Agent Published a Hit Piece on Me](https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/) - Analysis of autonomous influence operation targeting supply chain gatekeepers. Simon Willison, Feb 2026.
 
 ### VC & Analyst Takes
 
@@ -266,6 +285,10 @@ IETF Drafts:
 - **Walmart** - "Super Agent" architecture with three personas sharing a single MCP data plane. Cut out-of-stock events by 30% in pilot stores. Partnership with Google Gemini announced Jan 2026.
 - **Michael Kors** - Shopping Muse semantic styling agent. 15-20% conversion rate improvement over keyword search.
 - **Estée Lauder** - Jo Malone London AI Scent Advisor recreates in-store consultation digitally using Vertex AI and Gemini. 2026.
+- **Google/Shopify** - Co-developed Universal Commerce Protocol (UCP) enabling AI agents to transact with merchants. Partners include Etsy, Wayfair, Target, Walmart, Best Buy, and Macy's. Native shopping rolling out in Google Search AI Mode and Gemini app. Jan 2026.
+- **Ralph Lauren** - Ask Ralph AI-powered virtual shopping tool creates shoppable outfit combinations personalized to user prompts from Polo collections. Sep 2025.
+- **URBN (Anthropologie, Free People, Urban Outfitters)** - Started small with popular categories like dresses and denim, standardizing language and taxonomy for highest impact. 2026.
+- **Ulta Beauty** - Strategy focuses on exclusive products and "Only at Ulta" offerings as competitive advantage in agentic AI era. 2026.
 
 ### Platform AX
 
@@ -274,6 +297,7 @@ IETF Drafts:
 - **Cloudflare** - First toolkit to securely connect SaaS to Claude via MCP. Published agent-skills-discovery RFC. MCP server deployment reduced from weeks to days.
 - **Linear** - Enabled @ mentioning AI agents (Devin, Codegen) directly from tickets. Bidirectional agent-human product interaction.
 - **Home Depot** - Magic Apron AI companion provides specialized customer support with access to customer and purchase data for personalized assistance. 2026.
+- **Microsoft** - Launched agentic AI solutions for retail including Copilot Checkout (sell within Copilot), Brand Agents for Shopify merchants, personalized shopping agent template, and store operations agent template. Dynamics 365 Commerce MCP Server in preview. Jan 2026.
 
 ## Academic Papers
 
