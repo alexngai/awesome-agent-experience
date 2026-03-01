@@ -190,6 +190,7 @@ IETF Drafts:
 - [awesome-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP servers.
 - [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) - Another curated list of MCP servers.
 - [crawl4ai-mcp-server](https://github.com/sadiuysal/crawl4ai-mcp-server) - Web scraping exposed as MCP tools.
+- [AWS MCP Servers (awslabs/mcp)](https://github.com/awslabs/mcp) - Official suite of MCP servers for AWS giving AI applications access to AWS APIs, documentation, pricing, and contextual guidance.
 
 ### Skills & Instructions
 
@@ -219,6 +220,8 @@ IETF Drafts:
 - [AI Agent Benchmark Compendium](https://github.com/philschmid/ai-agent-benchmark-compendium) - Directory of 50+ agent benchmarks.
 - [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) - 175-task benchmark in a simulated software company environment.
 - [best-of-mcp-servers](https://github.com/tolkonepiu/best-of-mcp-servers) - Ranked list of MCP servers, updated weekly.
+- [Terminal-Bench 2.0](https://github.com/laude-institute/terminal-bench) - 89-task hard benchmark for AI agents on real-world terminal tasks, with the Harbor framework for containerized evaluation environments; frontier agents score below 65%. Laude Institute.
+- [FeatureBench](https://github.com/LiberCoders/FeatureBench) - ICLR 2026 benchmark of 200 complex feature-development tasks across 24 OSS repos; top agents achieve only 11% vs 74% on SWE-bench, exposing a gap in real-world feature implementation.
 
 ## Articles & Talks
 
@@ -232,6 +235,7 @@ IETF Drafts:
 - [AX, Creativity and the Human Web](https://biilmann.blog/articles/ax-creativity-and-the-human-web/) - How good AX can enhance rather than diminish the open web. Matt Biilmann, Feb 2025.
 - [The /llms.txt File Proposal](https://www.answer.ai/posts/2024-09-03-llmstxt.html) - Original llms.txt proposal. Jeremy Howard, Sep 2024.
 - [Predictions for 2026: 5 Topics](https://biilmann.blog/articles/predictions-for-2026/) - Predictions on autonomous agents, AX adoption, true computer literacy, and development pipelines. Matt Biilmann, Jan 2026.
+- [AX - is it Agent or Agentic?](https://biilmann.blog/articles/ax-is-it-agent-or-agentic/) - Clarifies that AX stands for Agent Experience (not Agentic Experience), by direct analogy with UX and DX. Matt Biilmann.
 
 ### Company Perspectives
 
@@ -266,6 +270,8 @@ IETF Drafts:
 - [Introducing the Codex app](https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/) - OpenAI's macOS app for Codex coding agent with first-class Skills and Automations support. Simon Willison, Feb 2026.
 - [One Human + One Agent = One Browser From Scratch](https://simonwillison.net/2026/Jan/27/one-human-one-agent-one-browser/) - Case study of building a browser in Rust with one agent and talented engineer in three days. Simon Willison, Jan 2026.
 - [An AI Agent Published a Hit Piece on Me](https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/) - Analysis of autonomous influence operation targeting supply chain gatekeepers. Simon Willison, Feb 2026.
+- [Andrej Karpathy talks about "Claws"](https://simonwillison.net/2026/Feb/21/claws/) - Karpathy's framing of "Claws" as a new orchestration layer above LLM agents: scheduling, context, tool calls, and persistence on personal hardware. Simon Willison, Feb 2026.
+- [Writing about Agentic Engineering Patterns](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/) - Ongoing pattern series for professional software engineers using coding agents, distinguishing agentic engineering from vibe coding. Simon Willison, Feb 2026.
 
 ### VC & Analyst Takes
 
@@ -289,6 +295,7 @@ IETF Drafts:
 - **Ralph Lauren** - Ask Ralph AI-powered virtual shopping tool creates shoppable outfit combinations personalized to user prompts from Polo collections. Sep 2025.
 - **URBN (Anthropologie, Free People, Urban Outfitters)** - Started small with popular categories like dresses and denim, standardizing language and taxonomy for highest impact. 2026.
 - **Ulta Beauty** - Strategy focuses on exclusive products and "Only at Ulta" offerings as competitive advantage in agentic AI era. 2026.
+- **Mastercard** - Launched Agent Pay, agentic payment infrastructure using Agentic Tokens enabling AI agents to transact securely on behalf of users with full consumer consent and auditability. Integrated with Microsoft Copilot Checkout, OpenAI Instant Checkout, PayPal, Google UCP, and Fiserv. First authenticated agentic transactions completed in Australia, 2026.
 
 ### Platform AX
 
@@ -307,6 +314,7 @@ IETF Drafts:
 - [A Survey of Agent Interoperability Protocols](https://arxiv.org/html/2505.02279v1) - Analysis of MCP, A2A, ACP, and other interop standards. May 2025.
 - [Structured Context Engineering for File-Native Agentic Systems](https://arxiv.org/abs/2602.05447) - 9,649 experiments showing how file formats affect agent accuracy and token efficiency at scale. McMillan, Feb 2026.
 - [Does Prompt Formatting Have Any Impact on LLM Performance?](https://arxiv.org/abs/2411.10541) - Demonstrates up to 40% performance variation from format choice (plain text, Markdown, JSON, YAML). Tam et al., Nov 2024.
+- [FeatureBench: Benchmarking Agentic Coding for Complex Feature Development](https://arxiv.org/abs/2602.10975) - 200-task ICLR 2026 benchmark for end-to-end feature development across 24 OSS repos; top agents score 11% vs 74% on SWE-bench, revealing the gap in complex feature implementation capability.
 
 ## Related Awesome Lists
 
