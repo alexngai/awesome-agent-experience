@@ -126,6 +126,7 @@ IETF Drafts:
 - [BANDAID](https://www.ietf.org/archive/id/draft-mozleywilliams-dnsop-bandaid-00.html) - Brokered Agent Network for DNS AI Discovery. Uses DNS with SVCB records for scalable agent discovery. Published October 2025.
 - [DNS-Native AI Agent Naming and Resolution](https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/) - DNS-native mechanism for agent naming using FQDNs and SVCB records. Published December 2025.
 - [AgentDNS](https://datatracker.ietf.org/doc/draft-liang-agentdns/) - Root domain naming and service discovery system for LLM agents. Published October 2025.
+- [Agent Registration and Discovery Protocol (ARDP)](https://www.ietf.org/ietf-ftp/internet-drafts/draft-pioli-agent-discovery-01.html) - Transport-agnostic IETF draft for stable agent identity, dynamic endpoint resolution, and capability advertisement across MCP, A2A, HTTP, and gRPC.
 
 ### Access Control
 
@@ -163,6 +164,7 @@ IETF Drafts:
 - [Agent Cards](https://github.com/commandlayer/agent-cards) - Verifiable identity and capability declarations for autonomous agents.
 - [AGNTCY](https://github.com/agntcy) - Open-source infrastructure for inter-agent collaboration.
 - [OpenAgents](https://github.com/openagents-org/openagents) - AI agent network infrastructure with MCP and AsyncAPI support.
+- [awesome-a2a](https://github.com/ai-boost/awesome-a2a) - Community-maintained curated list of A2A agents, tools, servers, and clients.
 
 ### Agent-Friendly APIs
 
@@ -182,6 +184,7 @@ IETF Drafts:
 - [mcp-browser-agent](https://github.com/imprvhub/mcp-browser-agent) - MCP integration providing Claude Desktop with autonomous browser automation capabilities including DOM manipulation and JavaScript execution.
 - [Fuji](https://github.com/normal-computing/fuji-web) - AI agent that lives in browser sidepanel for getting tasks done online with a single command.
 - [Browser Operator](https://github.com/browseroperator/browser-operator) - AI browser with built-in multi-agent platform, open-source alternative to ChatGPT Atlas and Perplexity Comet.
+- [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automates browser-based workflows using LLMs and computer vision; top-ranked on the WebVoyager benchmark with 20k+ GitHub stars.
 
 ### MCP Ecosystem
 
@@ -191,6 +194,8 @@ IETF Drafts:
 - [awesome-mcp-servers (wong2)](https://github.com/wong2/awesome-mcp-servers) - Another curated list of MCP servers.
 - [crawl4ai-mcp-server](https://github.com/sadiuysal/crawl4ai-mcp-server) - Web scraping exposed as MCP tools.
 - [AWS MCP Servers (awslabs/mcp)](https://github.com/awslabs/mcp) - Official suite of MCP servers for AWS giving AI applications access to AWS APIs, documentation, pricing, and contextual guidance.
+- [playwright-mcp](https://github.com/microsoft/playwright-mcp) - Microsoft's official MCP server for browser automation via Playwright's accessibility tree, enabling deterministic AI web interaction.
+- [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) - Official MCP protocol extension enabling tools to return interactive UI components (dashboards, forms, visualizations) rendered inside AI chat clients.
 
 ### Skills & Instructions
 
@@ -222,6 +227,7 @@ IETF Drafts:
 - [best-of-mcp-servers](https://github.com/tolkonepiu/best-of-mcp-servers) - Ranked list of MCP servers, updated weekly.
 - [Terminal-Bench 2.0](https://github.com/laude-institute/terminal-bench) - 89-task hard benchmark for AI agents on real-world terminal tasks, with the Harbor framework for containerized evaluation environments; frontier agents score below 65%. Laude Institute.
 - [FeatureBench](https://github.com/LiberCoders/FeatureBench) - ICLR 2026 benchmark of 200 complex feature-development tasks across 24 OSS repos; top agents achieve only 11% vs 74% on SWE-bench, exposing a gap in real-world feature implementation.
+- [agentevals](https://github.com/langchain-ai/agentevals) - LangChain's trajectory evaluators for agents using path comparison and LLM-as-a-Judge scoring; supports Python and JavaScript.
 
 ## Articles & Talks
 
@@ -236,6 +242,7 @@ IETF Drafts:
 - [The /llms.txt File Proposal](https://www.answer.ai/posts/2024-09-03-llmstxt.html) - Original llms.txt proposal. Jeremy Howard, Sep 2024.
 - [Predictions for 2026: 5 Topics](https://biilmann.blog/articles/predictions-for-2026/) - Predictions on autonomous agents, AX adoption, true computer literacy, and development pipelines. Matt Biilmann, Jan 2026.
 - [AX - is it Agent or Agentic?](https://biilmann.blog/articles/ax-is-it-agent-or-agentic/) - Clarifies that AX stands for Agent Experience (not Agentic Experience), by direct analogy with UX and DX. Matt Biilmann.
+- [My Bot Got Banned for Being a Bot](https://biilmann.blog/articles/my-bot-got-banned-for-being-a-bot/) - Argues fraud detection must shift from "is this a bot?" to "is this actor doing harm?" to support legitimate agent access. Matt Biilmann, Feb 2026.
 
 ### Company Perspectives
 
@@ -257,6 +264,7 @@ IETF Drafts:
 - [What is Agent Experience (AX)?](https://nordicapis.com/what-is-agent-experience-ax/) - Foundational explanation of AX with five essential practices for API design. Nordic APIs, Feb 2026.
 - [Agent Experience (AX): Why AI Agents Need Their Own Experience Design for B2B](https://www.eglobalis.com/agent-experience-ax-why-ai-agents-need-their-own-experience-design-for-b2b/) - Enterprise-focused AX deployment with emphasis on trusted context and governance. eGlobalis, Feb 2026.
 - [AX: Optimizing Your Brand for AI Agents](https://higoodie.com/blog/ax-agent-experience-optimizing-your-brand-for-ai-agents) - How AI agents are reshaping brand discovery and interpretation. Goodie AI, Feb 2026.
+- [Agentic Experience Is the New Developer Experience](https://nx.dev/blog/making-nx-agent-ready) - Four principles for agent-native CLI design: context management, structured output, idempotency, and informative design. Juri Strumpflohner & Max Kless / Nx, Mar 2026.
 
 ### Thought Leadership
 
@@ -272,6 +280,7 @@ IETF Drafts:
 - [An AI Agent Published a Hit Piece on Me](https://simonwillison.net/2026/Feb/12/an-ai-agent-published-a-hit-piece-on-me/) - Analysis of autonomous influence operation targeting supply chain gatekeepers. Simon Willison, Feb 2026.
 - [Andrej Karpathy talks about "Claws"](https://simonwillison.net/2026/Feb/21/claws/) - Karpathy's framing of "Claws" as a new orchestration layer above LLM agents: scheduling, context, tool calls, and persistence on personal hardware. Simon Willison, Feb 2026.
 - [Writing about Agentic Engineering Patterns](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/) - Ongoing pattern series for professional software engineers using coding agents, distinguishing agentic engineering from vibe coding. Simon Willison, Feb 2026.
+- [My fireside chat about agentic engineering at the Pragmatic Summit](https://simonwillison.net/2026/Mar/14/pragmatic-summit/) - Covers TDD with agents, security's "lethal trifecta," and the developer adoption curve for AI coding agents. Simon Willison, Mar 2026.
 
 ### VC & Analyst Takes
 
@@ -296,6 +305,8 @@ IETF Drafts:
 - **URBN (Anthropologie, Free People, Urban Outfitters)** - Started small with popular categories like dresses and denim, standardizing language and taxonomy for highest impact. 2026.
 - **Ulta Beauty** - Strategy focuses on exclusive products and "Only at Ulta" offerings as competitive advantage in agentic AI era. 2026.
 - **Mastercard** - Launched Agent Pay, agentic payment infrastructure using Agentic Tokens enabling AI agents to transact securely on behalf of users with full consumer consent and auditability. Integrated with Microsoft Copilot Checkout, OpenAI Instant Checkout, PayPal, Google UCP, and Fiserv. First authenticated agentic transactions completed in Australia, 2026.
+- **Amazon** - Opened Buy for Me and Shop Direct to 400K+ merchants via catalog integrations (Feedonomics, Salsify, CEDCommerce); 100M+ products agent-purchasable within the Amazon Shopping app. Mar 2026.
+- **Visa** - Launched Intelligent Commerce platform and open Trusted Agent Protocol for cryptographic AI agent authentication versus malicious bots; 100+ global partners in sandbox. 2026.
 
 ### Platform AX
 
@@ -305,6 +316,7 @@ IETF Drafts:
 - **Linear** - Enabled @ mentioning AI agents (Devin, Codegen) directly from tickets. Bidirectional agent-human product interaction.
 - **Home Depot** - Magic Apron AI companion provides specialized customer support with access to customer and purchase data for personalized assistance. 2026.
 - **Microsoft** - Launched agentic AI solutions for retail including Copilot Checkout (sell within Copilot), Brand Agents for Shopify merchants, personalized shopping agent template, and store operations agent template. Dynamics 365 Commerce MCP Server in preview. Jan 2026.
+- **AWS** - Launched AgentCore Gateway, a fully managed MCP server converting existing APIs and Lambda functions into agent-callable tools with 1-click integrations for Salesforce, Slack, Jira, and Zendesk; available across 14 AWS regions. Feb 2026.
 
 ## Academic Papers
 
