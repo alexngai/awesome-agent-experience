@@ -185,6 +185,7 @@ IETF Drafts:
 - [Fuji](https://github.com/normal-computing/fuji-web) - AI agent that lives in browser sidepanel for getting tasks done online with a single command.
 - [Browser Operator](https://github.com/browseroperator/browser-operator) - AI browser with built-in multi-agent platform, open-source alternative to ChatGPT Atlas and Perplexity Comet.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automates browser-based workflows using LLMs and computer vision; top-ranked on the WebVoyager benchmark with 20k+ GitHub stars.
+- [Lumen (browser-agent)](https://github.com/magnitudedev/browser-agent) - Vision-first open-source browser agent using a screenshot→model→action loop over CDP with self-healing deterministic replay and zero-token action caching; supports Anthropic, Google, and OpenAI providers.
 
 ### MCP Ecosystem
 
@@ -196,6 +197,7 @@ IETF Drafts:
 - [AWS MCP Servers (awslabs/mcp)](https://github.com/awslabs/mcp) - Official suite of MCP servers for AWS giving AI applications access to AWS APIs, documentation, pricing, and contextual guidance.
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp) - Microsoft's official MCP server for browser automation via Playwright's accessibility tree, enabling deterministic AI web interaction.
 - [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) - Official MCP protocol extension enabling tools to return interactive UI components (dashboards, forms, visualizations) rendered inside AI chat clients.
+- [microsoft/mcp-gateway](https://github.com/microsoft/mcp-gateway) - Kubernetes-native MCP reverse proxy providing session-aware stateful routing, OAuth 2.0 with Entra ID, and RBAC for managing MCP server deployments at scale.
 
 ### Skills & Instructions
 
@@ -219,6 +221,7 @@ IETF Drafts:
 - [Geoptie](https://geoptie.com/) - Entry-level GEO tool with accessible $49/mo pricing and 14-day free trial for beginners.
 - [Otterly.AI](https://otterly.ai/) - Democratizes GEO monitoring with entry-level tier at $25/month for tracking AI search visibility.
 - [Peec AI](https://peec.ai/) - GEO optimization platform with pricing ranging from €89/mo starter to €499/mo enterprise tiers.
+- [AutoGEO](https://github.com/cxcscmu/AutoGEO) - ICLR 2026 framework that uses reinforcement learning (GRPO) to automatically learn generative engine preferences and rewrite web content for improved AI search citation rates; claims up to 50% improvement in generative search visibility.
 
 ### Benchmarking & Testing
 
@@ -228,6 +231,8 @@ IETF Drafts:
 - [Terminal-Bench 2.0](https://github.com/laude-institute/terminal-bench) - 89-task hard benchmark for AI agents on real-world terminal tasks, with the Harbor framework for containerized evaluation environments; frontier agents score below 65%. Laude Institute.
 - [FeatureBench](https://github.com/LiberCoders/FeatureBench) - ICLR 2026 benchmark of 200 complex feature-development tasks across 24 OSS repos; top agents achieve only 11% vs 74% on SWE-bench, exposing a gap in real-world feature implementation.
 - [agentevals](https://github.com/langchain-ai/agentevals) - LangChain's trajectory evaluators for agents using path comparison and LLM-as-a-Judge scoring; supports Python and JavaScript.
+- [τ-Bench](https://github.com/sierra-research/tau2-bench) - Benchmark for evaluating AI agents in tool-agent-user interaction across retail, airline, telecom, and banking domains; includes τ-Voice for full-duplex real-time audio evaluation with major LLM providers.
+- [ITBench](https://github.com/itbench-hub/ITBench) - IBM Research open-source benchmark for IT automation agents covering SRE incident response, CISO compliance assessment, and FinOps cost anomaly use cases with a public leaderboard.
 
 ## Articles & Talks
 
