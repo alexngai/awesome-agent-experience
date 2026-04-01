@@ -243,6 +243,7 @@ IETF Drafts:
 - [Predictions for 2026: 5 Topics](https://biilmann.blog/articles/predictions-for-2026/) - Predictions on autonomous agents, AX adoption, true computer literacy, and development pipelines. Matt Biilmann, Jan 2026.
 - [AX - is it Agent or Agentic?](https://biilmann.blog/articles/ax-is-it-agent-or-agentic/) - Clarifies that AX stands for Agent Experience (not Agentic Experience), by direct analogy with UX and DX. Matt Biilmann.
 - [My Bot Got Banned for Being a Bot](https://biilmann.blog/articles/my-bot-got-banned-for-being-a-bot/) - Argues fraud detection must shift from "is this a bot?" to "is this actor doing harm?" to support legitimate agent access. Matt Biilmann, Feb 2026.
+- [2026 MCP Roadmap](https://modelcontextprotocol.io/development/roadmap) - Official MCP development roadmap covering transport scalability (Streamable HTTP, MCP Server Cards), agent communication primitives, governance maturation under Linux Foundation, and enterprise readiness. Mar 2026.
 
 ### Company Perspectives
 
@@ -281,6 +282,15 @@ IETF Drafts:
 - [Andrej Karpathy talks about "Claws"](https://simonwillison.net/2026/Feb/21/claws/) - Karpathy's framing of "Claws" as a new orchestration layer above LLM agents: scheduling, context, tool calls, and persistence on personal hardware. Simon Willison, Feb 2026.
 - [Writing about Agentic Engineering Patterns](https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/) - Ongoing pattern series for professional software engineers using coding agents, distinguishing agentic engineering from vibe coding. Simon Willison, Feb 2026.
 - [My fireside chat about agentic engineering at the Pragmatic Summit](https://simonwillison.net/2026/Mar/14/pragmatic-summit/) - Covers TDD with agents, security's "lethal trifecta," and the developer adoption curve for AI coding agents. Simon Willison, Mar 2026.
+- [Use subagents and custom agents in Codex](https://simonwillison.net/2026/Mar/16/codex-subagents/) - OpenAI Codex subagents reach GA with default explorer/worker/default roles and custom TOML-defined agents; the subagent pattern is now converging across Claude, Codex, Gemini, and VS Code. Simon Willison, Mar 2026.
+- [Coding agents for data analysis](https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/) - NICAR 2026 workshop handout demonstrating how Claude Code and Codex can explore, query, clean, and visualize data; highlights the autoresearch pattern for benchmarking-driven optimization. Simon Willison, Mar 2026.
+- [Thoughts on slowing the fuck down](https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/) - Warns that agentic coding removes the human bottleneck that naturally limits error accumulation; argues for intentional limits on agent code generation and hand-written architecture definitions. Simon Willison, Mar 2026.
+- [A quote from Matt Webb](https://simonwillison.net/2026/Mar/28/matt-webb/) - Matt Webb observes that vibe coding shifts attention away from lines of code and toward architecture; advocates for well-designed libraries that let both humans and agents work efficiently. Simon Willison, Mar 2026.
+- [Agent Experience Design is here. Most agencies aren't](https://martaib.medium.com/agent-experience-design-is-here-most-agencies-arent-3859d35ea9a3) - Introduces Agent Experience Design (AXD) as a genuine design discipline — information architecture and content design for non-human consumers — distinct from API engineering or AI product design. Marta IB, Mar 2026.
+- [Making agents practical for real-world development](https://code.visualstudio.com/blogs/2026/03/05/making-agents-practical-for-real-world-development) - VS Code February 2026 release: hooks for policy enforcement, mid-response intervention, reusable agent skills, integrated browser tools, and cross-session shared memory. VS Code Team, Mar 2026.
+- [Agentic Commerce is Coming, but Regulation Meant for Humans Will Slow It Down](https://datainnovation.org/2026/03/agentic-commerce-is-coming-but-regulation-meant-for-humans-will-slow-it-down/) - Policy analysis arguing that Regulation E and Sarbanes-Oxley were written for human-initiated transactions and lack clear frameworks for AI agent disputes; recommends updating authorization, consent, and liability principles rather than creating new rules. Eli Clemens / Center for Data Innovation, Mar 2026.
+- [AgentEng 2026](https://agentengineering.world) - The first conference dedicated to Agent Engineering: context/prompt engineering, evaluation frameworks, memory systems, multi-agent orchestration, and an AX track on designing machine-readable interfaces and feedback loops. London, Summer 2026. Superagentic AI.
+- [MCP's Biggest Growing Pains for Production Use Will Soon Be Solved](https://thenewstack.io/model-context-protocol-roadmap-2026/) - Analysis of the MCP 2026 roadmap's solutions to stateless scaling, enterprise auth gaps, and governance maturation under Linux Foundation stewardship. The New Stack, Mar 2026.
 
 ### VC & Analyst Takes
 
@@ -290,6 +300,9 @@ IETF Drafts:
 - **Forrester** - Five critical AX skills: knowledge curation, change management, critical thinking, interaction skills, agent oversight.
 - **McKinsey** - Up to $1T in US retail, $3-5T globally by 2030. "If your catalog is not machine-readable, agents will not find you."
 - **BCG** - AI traffic to retail up 4,700% YoY. "Those who wait risk becoming invisible."
+- [AI Agent Trends 2026](https://cloud.google.com/resources/content/ai-agent-trends-2026) - Google Cloud report identifying five enterprise shifts: instruction-based to intent-based computing, single tasks to multi-agent systems, generic to grounded models, democratized development, and evolving human roles. 52% of gen AI enterprises already have agents in production. Google Cloud, 2026.
+- [Agentic AI Strategy](https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html) - Deloitte Tech Trends 2026 chapter: 23% of companies using agentic AI today rising to 74% in two years; legacy system integration is the top production obstacle. Deloitte Insights, Dec 2025.
+- [Prepare Your Workforce for an Agentic Future with an Agent Experience Program](https://www.forrester.com/blogs/prepare-your-workforce-for-an-agentic-future-with-an-agent-experience-program/) - Forrester defines an AX program as five workforce skills (knowledge curation, change management, critical thinking, interaction skills, agent oversight); reports $5 in services for every $1 in agent licensing. Craig Le Clair et al., Forrester, Nov 2025.
 
 ## Case Studies
 
@@ -307,6 +320,9 @@ IETF Drafts:
 - **Mastercard** - Launched Agent Pay, agentic payment infrastructure using Agentic Tokens enabling AI agents to transact securely on behalf of users with full consumer consent and auditability. Integrated with Microsoft Copilot Checkout, OpenAI Instant Checkout, PayPal, Google UCP, and Fiserv. First authenticated agentic transactions completed in Australia, 2026.
 - **Amazon** - Opened Buy for Me and Shop Direct to 400K+ merchants via catalog integrations (Feedonomics, Salsify, CEDCommerce); 100M+ products agent-purchasable within the Amazon Shopping app. Mar 2026.
 - **Visa** - Launched Intelligent Commerce platform and open Trusted Agent Protocol for cryptographic AI agent authentication versus malicious bots; 100+ global partners in sandbox. 2026.
+- **OpenAI** - Reversed Instant Checkout in-app purchasing after onboarding and tax-collection challenges; pivoted to retailer-app model inside ChatGPT where purchase completes on retailer's own site, giving brands full control of transaction experience. Mar 2026.
+- **Firmly** - Launched Firmly Connect, a no-code agentic commerce onboarding platform; retailers including Best Buy and Backcountry integrated with zero engineering resources. Mar 2026.
+- **Accenture / DaVinci Commerce** - Accenture Ventures invested in DaVinci Commerce on March 23, 2026 to advance the Agentic BrandStore product, which surfaces branded experiences inside LLMs; partnership with Accenture Song covers discovery through fulfilment and loyalty. Mar 2026.
 
 ### Platform AX
 
