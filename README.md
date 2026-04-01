@@ -127,12 +127,15 @@ IETF Drafts:
 - [DNS-Native AI Agent Naming and Resolution](https://datatracker.ietf.org/doc/draft-cui-dns-native-agent-naming-resolution/) - DNS-native mechanism for agent naming using FQDNs and SVCB records. Published December 2025.
 - [AgentDNS](https://datatracker.ietf.org/doc/draft-liang-agentdns/) - Root domain naming and service discovery system for LLM agents. Published October 2025.
 - [Agent Registration and Discovery Protocol (ARDP)](https://www.ietf.org/ietf-ftp/internet-drafts/draft-pioli-agent-discovery-01.html) - Transport-agnostic IETF draft for stable agent identity, dynamic endpoint resolution, and capability advertisement across MCP, A2A, HTTP, and gRPC.
+- [ACIP Framework](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) - IETF draft proposing Agent Communications Internet Protocol, an HTTP-proxy-style infrastructure layer for routing, access control, and policy enforcement between distributed AI agents and MCP Gateways. Futurewei Technologies, March 2026.
+- [NANDA](https://projectnanda.org/) - MIT Media Lab initiative building decentralized "DNS for agents" infrastructure with AgentFacts schema for verifiable capability attestation, sub-second global resolution, and cross-protocol interoperability across MCP, A2A, and NLWeb.
 
 ### Access Control
 
 - [IETF robots.txt Update](https://www.ietf.org/archive/id/draft-jimenez-tbd-robotstxt-update-00.html) - Adds intent-based policies (training vs. indexing vs. inference), API endpoint discovery, and cryptographic verification.
 - [Really Simple Licensing (RSL)](https://rsl.ink/) - AI bot licensing terms embedded in robots.txt. Adopted by Medium, Reddit, Yahoo.
 - ai.txt - UK publisher proposal for AI bot permissions (policy-level, not a technical spec).
+- [AI Agent Authentication and Authorization](https://datatracker.ietf.org/doc/draft-klrc-aiagent-auth/) - IETF draft demonstrating how existing WIMSE and OAuth 2.0 standards can be composed for AI agent identity, authentication, and authorization without new protocols. Authors from AWS, Zscaler, OpenAI, and Ping Identity. March 2026.
 
 ### API Description
 
@@ -145,6 +148,8 @@ IETF Drafts:
 - [Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation) - Neutral consortium under Linux Foundation (Anthropic, OpenAI, Block). Governs MCP, AGENTS.md, Goose.
 - [W3C AI Agent Protocol Community Group](https://www.w3.org/community/agentprotocol/) - Developing open web standards for agent discovery, identification, and collaboration.
 - [OWASP Agent Name Service](https://genai.owasp.org/resource/agent-name-service-ans-for-secure-al-agent-discovery-v1-0/) - PKI and JSON schemas for secure agent discovery.
+- [NIST AI Agent Standards Initiative](https://www.nist.gov/caisi/ai-agent-standards-initiative) - U.S. government program from NIST's Center for AI Standards and Innovation dedicated to interoperability, security, and identity standards for agentic AI systems. Launched February 2026.
+- [Singapore IMDA Model AI Governance Framework for Agentic AI](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/new-model-ai-governance-framework-for-agentic-ai) - World's first comprehensive governance framework for agentic AI covering capability limits, human accountability checkpoints, technical controls, and end-user transparency. Launched at WEF Davos, January 2026.
 
 ## Tools
 
