@@ -129,6 +129,7 @@ IETF Drafts:
 - [Agent Registration and Discovery Protocol (ARDP)](https://www.ietf.org/ietf-ftp/internet-drafts/draft-pioli-agent-discovery-01.html) - Transport-agnostic IETF draft for stable agent identity, dynamic endpoint resolution, and capability advertisement across MCP, A2A, HTTP, and gRPC.
 - [ACIP Framework](https://datatracker.ietf.org/doc/draft-eckert-catalist-acip-framework/) - IETF draft proposing Agent Communications Internet Protocol, an HTTP-proxy-style infrastructure layer for routing, access control, and policy enforcement between distributed AI agents and MCP Gateways. Futurewei Technologies, March 2026.
 - [NANDA](https://projectnanda.org/) - MIT Media Lab initiative building decentralized "DNS for agents" infrastructure with AgentFacts schema for verifiable capability attestation, sub-second global resolution, and cross-protocol interoperability across MCP, A2A, and NLWeb.
+- [AI Discovery Endpoint](https://datatracker.ietf.org/doc/draft-aiendpoint-ai-discovery/) - IETF draft defining a `/.well-known/ai` endpoint returning a structured JSON document with a service's identity, available actions, auth requirements, and operational hints optimized for LLM token efficiency. Submitted March 2026.
 
 ### Access Control
 
@@ -203,6 +204,8 @@ IETF Drafts:
 - [playwright-mcp](https://github.com/microsoft/playwright-mcp) - Microsoft's official MCP server for browser automation via Playwright's accessibility tree, enabling deterministic AI web interaction.
 - [MCP Apps](https://github.com/modelcontextprotocol/ext-apps) - Official MCP protocol extension enabling tools to return interactive UI components (dashboards, forms, visualizations) rendered inside AI chat clients.
 - [microsoft/mcp-gateway](https://github.com/microsoft/mcp-gateway) - Kubernetes-native MCP reverse proxy providing session-aware stateful routing, OAuth 2.0 with Entra ID, and RBAC for managing MCP server deployments at scale.
+- [MetaMCP](https://github.com/metatool-ai/metamcp) - MCP aggregator, orchestrator, middleware, and gateway in one Docker container that unifies multiple MCP servers into a single endpoint with namespacing, tool filtering, and enterprise access controls; 2.2k+ GitHub stars.
+- [MCPJungle](https://github.com/mcpjungle/MCPJungle) - Self-hosted MCP server registry and gateway for enterprise AI agents with RBAC, OpenTelemetry metrics, and single-binary deployment.
 
 ### Skills & Instructions
 
@@ -238,6 +241,7 @@ IETF Drafts:
 - [agentevals](https://github.com/langchain-ai/agentevals) - LangChain's trajectory evaluators for agents using path comparison and LLM-as-a-Judge scoring; supports Python and JavaScript.
 - [τ-Bench](https://github.com/sierra-research/tau2-bench) - Benchmark for evaluating AI agents in tool-agent-user interaction across retail, airline, telecom, and banking domains; includes τ-Voice for full-duplex real-time audio evaluation with major LLM providers.
 - [ITBench](https://github.com/itbench-hub/ITBench) - IBM Research open-source benchmark for IT automation agents covering SRE incident response, CISO compliance assessment, and FinOps cost anomaly use cases with a public leaderboard.
+- [o11y-bench](https://github.com/grafana/o11y-bench) - Open benchmark for AI agents on 63 observability workflow tasks spanning PromQL, LogQL, TraceQL, incident investigation, and dashboard editing; runs against a real Grafana stack via the Grafana MCP server. Grafana Labs, April 2026.
 
 ## Articles & Talks
 
@@ -276,6 +280,7 @@ IETF Drafts:
 - [Agent Experience (AX): Why AI Agents Need Their Own Experience Design for B2B](https://www.eglobalis.com/agent-experience-ax-why-ai-agents-need-their-own-experience-design-for-b2b/) - Enterprise-focused AX deployment with emphasis on trusted context and governance. eGlobalis, Feb 2026.
 - [AX: Optimizing Your Brand for AI Agents](https://higoodie.com/blog/ax-agent-experience-optimizing-your-brand-for-ai-agents) - How AI agents are reshaping brand discovery and interpretation. Goodie AI, Feb 2026.
 - [Agentic Experience Is the New Developer Experience](https://nx.dev/blog/making-nx-agent-ready) - Four principles for agent-native CLI design: context management, structured output, idempotency, and informative design. Juri Strumpflohner & Max Kless / Nx, Mar 2026.
+- [Adobe Unveils CX Enterprise Coworker](https://news.adobe.com/news/2026/04/adobe-unveils-cx-enterprise-coworker) - Adobe's end-to-end agentic AI system built on open MCP and A2A standards, unifying AI agents, agent skills, and MCP endpoints with a governance layer for auditable customer experience workflows. Adobe, Apr 2026.
 
 ### Thought Leadership
 
@@ -301,6 +306,8 @@ IETF Drafts:
 - [Agentic Commerce is Coming, but Regulation Meant for Humans Will Slow It Down](https://datainnovation.org/2026/03/agentic-commerce-is-coming-but-regulation-meant-for-humans-will-slow-it-down/) - Policy analysis arguing that Regulation E and Sarbanes-Oxley were written for human-initiated transactions and lack clear frameworks for AI agent disputes; recommends updating authorization, consent, and liability principles rather than creating new rules. Eli Clemens / Center for Data Innovation, Mar 2026.
 - [AgentEng 2026](https://agentengineering.world) - The first conference dedicated to Agent Engineering: context/prompt engineering, evaluation frameworks, memory systems, multi-agent orchestration, and an AX track on designing machine-readable interfaces and feedback loops. London, Summer 2026. Superagentic AI.
 - [MCP's Biggest Growing Pains for Production Use Will Soon Be Solved](https://thenewstack.io/model-context-protocol-roadmap-2026/) - Analysis of the MCP 2026 roadmap's solutions to stateless scaling, enterprise auth gaps, and governance maturation under Linux Foundation stewardship. The New Stack, Mar 2026.
+- [Highlights from my conversation about agentic engineering on Lenny's Podcast](https://simonwillison.net/2026/Apr/2/lennys-podcast/) - Simon Willison discusses the November 2025 AI coding inflection point, agentic TDD and template patterns, prompt injection's "lethal trifecta," and the "dark factory" risk of unreviewed agent-generated code. Simon Willison, Apr 2026.
+- [Headless everything for personal AI](https://interconnected.org/home/2026/04/18/headless) - Argues that services must go headless — providing APIs and CLIs for personal AI agents rather than relying on GUI-based browser automation — predicting official CLIs from banks and booking services within a year. Matt Webb, Apr 2026.
 
 ### VC & Analyst Takes
 
